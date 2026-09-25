@@ -1,8 +1,8 @@
 # Hawkins for Schools
 
-A single-page, static first draft built with Astro, TypeScript, and Tailwind CSS 4 through the official `@tailwindcss/vite` integration. Content comes from **2026_Sep_Hawkins for Schools webpage content.docx**, read in full before implementation. All three beliefs and all eight priorities retain their original wording and order. The lead sentence of each belief is styled as a heading without changing the text.
+A single-page, static campaign website built with Astro, TypeScript, and Tailwind CSS 4 through the official `@tailwindcss/vite` integration. Beliefs and priorities come from **2026_Sep_Hawkins for Schools webpage content.docx**, read in full before implementation. All three beliefs and all eight priorities retain their original wording and order. The lead sentence of each belief is styled as a heading without changing the text. Kevin's September 25, 2026 email supplies the candidate details, portrait, campaign artwork, and foundation-link request.
 
-The site has no client-side application JavaScript, React, CMS, authentication, database, form, tracking, or external font requests. Fonts are self-hosted from Fontsource packages. The site's purpose and Hawkins's exact role remain unconfirmed; the visual identity does not imply district affiliation.
+The site has no client-side application JavaScript, React, CMS, authentication, database, form, tracking, or external font requests. Fonts are self-hosted from Fontsource packages. It identifies Kevin Hawkins as a candidate for South Bend Community School Corporation School Board Member representing District 1, not as a current board member or official district spokesperson.
 
 ## Requirements
 
@@ -49,15 +49,19 @@ This invokes `wrangler deploy --dry-run` against the existing `dist` directory. 
 - `src/data/site.ts`: approved copy, headings, and metadata. Keep the supplied order and wording unless the client approves revisions.
 - `src/pages/index.astro`: semantic page structure and noindex metadata.
 - `src/styles/global.css`: shared color and font tokens in `@theme`, typography, responsive layout, focus states, reduced-motion and print styles.
-- `src/components/Wordmark.astro`: simple text wordmark.
+- `src/components/Wordmark.astro`: campaign logo extracted from the client's PDF and served as a responsive image.
+- `src/assets/kevin-hawkins.jpg`: original client-supplied Barbershop Selfie; Astro generates responsive WebP versions without retouching.
+- `src/assets/hawkins-campaign-logo.png`: original transparent logo embedded in the supplied yard-sign PDF, extracted without redrawing it.
 - `public/favicon.svg`: provisional typographic H favicon.
 - `public/_headers` and `public/robots.txt`: preview indexing controls.
 
-The palette is forest green, warm white, and a restrained light green accent; Newsreader and Manrope provide display and body typography. These choices are provisional and easy to replace. Font licenses are retained in `public/fonts` and included in the build.
+The palette follows the supplied campaign artwork's blue and red, with a light neutral background; Newsreader and Manrope retain the original draft's typography. Shared design tokens make later adjustments straightforward. Font licenses are retained in `public/fonts` and included in the build.
+
+The yard-sign PDF includes the campaign logo, District 1, and a sign slogan. The website uses the extracted logo and confirmed district. It does not present the full print layout as a web logo or add the sign slogan to the original belief statements. The email's ballot spelling is inconsistent, so only “Kevin Hawkins” is shown pending clarification. No private email address or phone number from the correspondence is included.
 
 ## Cloudflare Workers Static Assets deployment
 
-**Prepared only. Do not run the publishing command or connect a domain until the client approves launch.**
+**Final launch pending. Do not connect the proposed domain or enable indexing until final approval.** Bryan has shared a Cloudflare preview at `https://hawk-school-board.pages.dev/`. The repository retains the requested Workers Static Assets configuration; no hosting migration or custom-domain setup is performed by the campaign-content revision.
 
 `wrangler.jsonc` serves `./dist` through Workers Static Assets. It intentionally contains no `main` entry point, runtime Worker script, SSR, Cloudflare Astro adapter, routes, or domain. The proposed Worker name is `hawkins-for-schools`; confirm its availability in the intended account before publishing.
 
@@ -83,4 +87,4 @@ Official setup references: [Tailwind's Astro guide](https://tailwindcss.com/docs
 
 These Markdown files and the original source document are not in `public` or the built website output. Only `dist` is served or deployed.
 
-The preview is marked `noindex, nofollow` in HTML and Cloudflare response headers, with crawling disallowed in `robots.txt`. These controls discourage indexing; they are not access control. No production site or domain has been published by this task.
+The preview is marked `noindex, nofollow` in HTML and Cloudflare response headers, with crawling disallowed in `robots.txt`. These controls discourage indexing; they are not access control. `hawkinsforschools.org` was proposed by the client but still needs ownership/access confirmation with Kyle. No production domain or canonical URL has been configured. Future use after the election is recorded in `CLIENT-QUESTIONS.md`, not activated on a timer.

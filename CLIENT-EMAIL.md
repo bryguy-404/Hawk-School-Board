@@ -1,22 +1,25 @@
 # Client email draft — not sent
 
-**Subject:** Hawkins for Schools — details for launch
+**Subject:** Re: Hawk Website
 
-Hi,
+Hi Kevin,
 
-The first draft of Hawkins for Schools is ready for review, using your three belief statements and eight priorities as supplied.
+Thanks for sending these over! I've added your headshot, the campaign logo from the yard-sign PDF, your name and District 1 candidacy, and a link to the Hawkins Family Foundation. The colors now match the campaign artwork. Your belief statements and priorities are unchanged.
 
-Before we launch, please confirm:
+Before the final launch, we just need:
 
-- Your exact public name, role, district, and seat, and whether the website is for a campaign, board-member updates, or another purpose.
-- Approval of the supplied wording and the website name.
-- Any contact details or social links approved for public use, or that you prefer to publish none.
-- Your preferred domain and who will coordinate domain and hosting access.
-- Your launch deadline and who will give final approval of the page and publication.
-- The exact wording of any required footer attribution or disclosure, or that none is required.
+- Your final wording/design approval and confirmation of who will give the go-ahead to launch.
+- Kyle's confirmation of the `hawkinsforschools.org` domain and access.
+- A decision on footer attribution and the exact wording, if you want or need it.
 
-Optional for later: an approved headshot, a short biography, and any color, font, or logo preferences. These are not needed to move forward with the current text-led design.
+On the footer question: an attribution tells visitors who is responsible for or paid for the campaign material. Indiana's current guidance treats internet messages differently from printed yard signs, so I'd have your campaign treasurer or adviser confirm the wording for each. I haven't added an assumed committee name or disclaimer.
 
-The site has not been published, and search indexing remains disabled pending launch approval.
+One spelling check: your email says “Kevin Jerome Hakins” for the ballot name. Is that exact, or should it be “Kevin Jerome Hawkins”? For now, the page uses “Kevin Hawkins.” Your biography can follow whenever it's ready.
+
+I've also noted your plans for the website after the election. We can update its purpose once the outcome is confirmed.
 
 Thank you!
+
+---
+
+Internal note for Bryan: this draft is saved for review and has not been sent. Add the current preview link after its update is verified. Footer reference: [2026 Indiana Campaign Finance Manual, printed pages 76–77](https://www.in.gov/sos/elections/files/2026-Campaign-Finance-Manual.FINAL.11-12-25.pdf).

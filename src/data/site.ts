@@ -1,11 +1,20 @@
 /**
- * Transcribed verbatim from “2026_Sep_Hawkins for Schools webpage content.docx”.
+ * Beliefs and priorities transcribed verbatim from the original Word document.
  * A belief's opening sentence is separated only for typographic hierarchy.
- * Do not add a role, campaign status, contact details, or claims without approval.
+ * Candidate details and logo approved in Kevin's September 25, 2026 email.
+ * His ballot-name spelling, domain ownership, and footer wording remain pending.
  */
 export const site = {
   title: 'Hawkins for Schools',
-  description: 'Hawkins for Schools — What I believe and Priorities.',
+  description: 'Kevin Hawkins, candidate for South Bend Community School Corporation School Board Member representing District 1. Read his beliefs and priorities.',
+  candidateName: 'Kevin Hawkins',
+  role: 'Candidate for School Board Member',
+  district: 'South Bend Community School Corporation',
+  seat: 'District 1',
+  foundation: {
+    label: 'Hawkins Family Foundation',
+    url: 'https://www.hawkinsfamilyfoundation.com/',
+  },
   beliefsHeading: 'What I believe',
   prioritiesHeading: 'Priorities',
   beliefs: [

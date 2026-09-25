@@ -1,4 +1,15 @@
-<span class="wordmark">
-  <span class="wordmark-name">Hawkins</span>
-  <span class="wordmark-description">for Schools</span>
-</span>
+---
+import { Image } from 'astro:assets';
+import campaignLogo from '../assets/hawkins-campaign-logo.png';
+---
+<Image
+  class="campaign-logo"
+  src={campaignLogo}
+  alt="Hawkins for School Board"
+  width={280}
+  widths={[280, 560, 840]}
+  sizes="(max-width: 639px) 220px, 280px"
+  format="webp"
+  quality={95}
+  loading="eager"
+/>
