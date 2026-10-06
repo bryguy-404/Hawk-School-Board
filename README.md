@@ -2,7 +2,9 @@
 
 A single-page, static campaign website built with Astro, TypeScript, and Tailwind CSS 4 through the official `@tailwindcss/vite` integration. Beliefs and priorities come from **2026_Sep_Hawkins for Schools webpage content.docx**, read in full before implementation. All three beliefs and all eight priorities retain their original wording and order. The lead sentence of each belief is styled as a heading without changing the text. Kevin's September 25, 2026 email supplies the candidate details, portrait, campaign artwork, and foundation-link request.
 
-The site has no client-side application JavaScript, React, CMS, authentication, database, form, tracking, or external font requests. Fonts are self-hosted from Fontsource packages. It identifies Kevin Hawkins as a candidate for South Bend Community School Corporation School Board Member representing District 1, not as a current board member or official district spokesperson.
+The site has no first-party client-side application JavaScript, React, CMS, authentication, database, form, analytics, or external font requests. Fonts are self-hosted from Fontsource packages. It identifies Kevin Hawkins as a candidate for South Bend Community School Corporation School Board Member representing District 1, not as a current board member or official district spokesperson.
+
+The WSBT-TV interview provided on October 6 is embedded between the introduction and beliefs, with a header navigation link and a direct YouTube fallback link. The responsive iframe uses YouTube's privacy-enhanced domain, lazy loading, native player controls, fullscreen support, and no autoplay. YouTube loads its own scripts and network resources inside the iframe. The embed's referrer policy sends the referring site's origin in the `Referer` header required by YouTube. Update the video ID, verified title, and publisher in `src/data/site.ts`.
 
 ## Requirements
 

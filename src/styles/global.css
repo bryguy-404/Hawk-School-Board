@@ -29,6 +29,8 @@
   .site-header { min-height: 7rem; padding-block: 1.7rem; border-bottom: 1px solid var(--color-rule); }
   .wordmark-link { display: inline-flex; max-width: 100%; }
   .campaign-logo { display: block; width: 17.5rem; max-width: 100%; height: auto; }
+  .site-header nav { max-width: 100%; }
+  .header-nav { flex-wrap: wrap; row-gap: 0.25rem; }
   .header-nav a { display: inline-flex; align-items: center; min-height: 2.75rem; font-size: 0.875rem; font-weight: 600; }
   .header-nav a:hover { text-decoration: underline; }
   .hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.62fr); align-items: center; gap: 4rem; padding-block: 3.5rem 4rem; }
@@ -52,6 +54,13 @@
   .hero-bottom .text-link { padding-inline: 1.15rem; }
   .arrow { flex: none; }
   .arrow-up { transform: rotate(180deg); }
+  .interview { padding-block: 3rem 5.5rem; border-top: 1px solid var(--color-rule); }
+  .interview-heading { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem; margin-bottom: 2rem; }
+  .interview-heading > div { min-width: 0; }
+  .video-source { margin-bottom: 0.85rem; color: var(--color-muted); font-size: 0.875rem; font-weight: 650; letter-spacing: 0.04em; }
+  .interview h2 { font-family: var(--font-serif); font-size: clamp(2.5rem, 4.5vw, 4rem); font-weight: 400; line-height: 1.1; letter-spacing: -0.035em; }
+  .video-player { display: block; width: 100%; height: auto; min-height: 200px; aspect-ratio: 16 / 9; border: 0; background: var(--color-ink); }
+  .video-player:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 6px; }
   .beliefs { padding-block: 6.5rem; background: var(--color-primary); color: var(--color-paper); }
   .section-index { display: block; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.05em; font-variant-numeric: tabular-nums; }
   .beliefs .section-index { color: var(--color-highlight); margin-bottom: 2rem; }
@@ -114,6 +123,8 @@
   .hero-bottom { justify-content: flex-start; gap: 0.6rem; margin-top: 2.1rem; }
   .section-button { padding-inline: 1rem; }
   .hero-bottom .text-link { padding-inline: 0.5rem; }
+  .interview { padding-block: 2rem 3.5rem; }
+  .interview-heading { margin-bottom: 1.5rem; }
   .beliefs, .priorities { padding-block: 3.5rem; }
   .section-heading h2, .priorities-heading h2 { font-size: 3.3rem; }
   .beliefs-layout { gap: 2.6rem; }
@@ -136,6 +147,9 @@
   body, .beliefs { background: white; color: black; }
   .page-width { width: 100%; }
   .site-header, .hero-bottom, .site-footer, .skip-link { display: none; }
+  .video-player { display: none; }
+  .interview { padding-block: 1.5rem; }
+  .interview .text-link::after { content: " (" attr(href) ")"; font-size: 0.75rem; overflow-wrap: anywhere; }
   .hero, .beliefs, .priorities { padding-block: 1.5rem; }
   .hero-title { font-size: 4rem; }
   .hero-title-second { margin: 0; }

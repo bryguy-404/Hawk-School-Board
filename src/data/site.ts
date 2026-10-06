@@ -11,6 +11,11 @@ export const site = {
   role: 'Candidate for School Board Member',
   district: 'South Bend Community School Corporation',
   seat: 'District 1',
+  video: {
+    id: '0cZHzmhVvik',
+    title: 'One-on-One with South Bend School Board District 1 Candidate Kevin Jerome Hawkins',
+    publisher: 'WSBT-TV',
+  },
   foundation: {
     label: 'Hawkins Family Foundation',
     url: 'https://www.hawkinsfamilyfoundation.com/',

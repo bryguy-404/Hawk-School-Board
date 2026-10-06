@@ -1,5 +1,18 @@
 # Hawkins for Schools verification
 
+## October 6, 2026 — interview embed
+
+- Confirmed the supplied YouTube ID `0cZHzmhVvik`, title, and WSBT-TV publisher using YouTube's oEmbed response. Added the interview below the introduction, an Interview navigation link, and a direct Watch on YouTube link. The supplied beliefs and priorities are unchanged.
+- `npm run check` passed with zero errors, warnings, or hints. `npm run build` passed and produced the static page.
+- Chromium checks at 320, 390, 768, and 1440 CSS pixels found no page or element overflow. Repeated page-overflow checks at 200% root text size. Inspected phone, tablet, and desktop screenshots.
+- Verified skip-link keyboard behavior, visible header-link focus, and Enter moving focus to the interview section. Beliefs and priorities navigation still works.
+- Verified lazy loading, the privacy-enhanced embed URL, fullscreen permission, the player title, the referrer policy, and the direct YouTube link. Playback starts after clicking YouTube's Play video button; video time advanced beyond one second with `paused: false` and `readyState: 4`.
+- The player remains at least 200 pixels high on narrow phones. The normal player is 16:9. No autoplay or first-party JavaScript was added; YouTube does load third-party scripts and resources inside its iframe.
+- No page errors during layout checks. HTML noindex metadata remains present. No custom domain or indexing settings changed.
+- Limits: tested desktop Chromium with emulated viewport sizes, not physical devices, Safari, Firefox, or assistive technologies. Playback was checked briefly, not through the full interview.
+
+## September 25, 2026 — original campaign revision
+
 Checked September 25, 2026 against the production build, then repeated the relevant checks after implementing Kevin's afternoon campaign-details email.
 
 ## Passed
