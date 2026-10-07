@@ -1,5 +1,5 @@
 /**
- * Beliefs and priorities transcribed from Kevin's October 6, 2026 Word revisions.
+ * Beliefs use Kevin's October 7, 2026 revision; priorities use his October 6 version.
  * Wording, heading structure, and order preserved; repeated whitespace normalized.
  * Candidate details and logo approved in Kevin's September 25, 2026 email.
  * His ballot-name spelling, domain ownership, and footer wording remain pending.
@@ -25,15 +25,15 @@ export const site = {
   beliefs: [
     {
       title: 'Student-centered decisions-Budgeting with purpose',
-      body: 'The school board must make policy and budgeting choices that directly support student growth and development: mastering literacy skills, reading comprehension, and social-emotional learning that builds individual agency and community. As well as addressing barriers like food insecurity and unreliable transportation to provide a positive student experience.',
+      body: 'The school board must make policy and budgeting choices that directly support student growth and development: mastering literacy skills, reading comprehension, and social-emotional learning that builds individual agency and community. Barriers like food insecurity, teacher continuity and transportation concerns must also be addressed to provide a positive student experience.',
     },
     {
       title: 'Restoring trust through real coordination',
-      body: 'We must work together to strengthen cooperation across the entire district ecosystem-students, families, teachers, school leaders & support staff, district administration, the board and the community-clear roles and expectations, consistent and thorough communication, so students can feel secure in a stable learning environment',
+      body: 'We must work together to strengthen cooperation across the entire district ecosystem: students, families, teachers, school leaders & support staff, district administration, the board and the community. We must have clarity on our roles and our accountability, as well as consistent and thorough communication throughout. This will foster a more stable learning environment in which students can feel safe and secure.',
     },
     {
       title: 'Building the essentials that make achievement possible',
-      body: 'We must have sensible and consistent student and staff assignment processes, stronger parent involvement, retain and support qualified licensed teachers, and communicate the good things being done to show the value of public education in every neighborhood in South Bend.',
+      body: 'We must have sensible, consistent student and staff assignment processes. We need stronger parent involvement. We must recruit, retain and support qualified licensed teachers. We need to share and communicate our positive accomplishments to show the value of public education to our South Bend community.',
     },
   ],
   priorities: [

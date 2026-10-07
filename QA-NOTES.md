@@ -1,5 +1,15 @@
 # Hawkins for Schools verification
 
+## October 7, 2026 — final belief revision
+
+- Read `2026_Oct_What I Believe 2.docx` in full. It contains the same three belief headings with three replacement body paragraphs; no tracked changes or additional text parts were present.
+- Replaced the three paragraphs without editorial rewriting. Normalized repeated spaces. Headings and the eight October 6 priorities remain unchanged.
+- Compared every rendered belief heading/body with the latest attachment and every priority with the October 6 source; all wording and ordering match.
+- `npm run check` passed with zero errors, warnings, or hints. `npm run build` succeeded.
+- Chromium checks at 320, 390, 768, and 1440 CSS pixels found no horizontal page or element overflow. Rechecked page overflow at 200% root text size and keyboard navigation to both content sections. Inspected desktop and phone screenshots of the revised beliefs.
+- The interview embed and preview noindex metadata remain present. No custom-domain or indexing changes are included. The email's conditional launch intent is recorded in `CLIENT-QUESTIONS.md`.
+- Limits: desktop Chromium with emulated sizes; no physical-device, Safari, Firefox, or assistive-technology testing for this copy update. Unchanged video playback was not retested.
+
 ## October 6, 2026 — evening copy revisions
 
 - Read both October Word attachments in full, including checking for tracked changes and additional text parts. The belief document contains three headings and three body paragraphs; the priorities document contains eight list entries. No tracked changes or additional text parts were present.
