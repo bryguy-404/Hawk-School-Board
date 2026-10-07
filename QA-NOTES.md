@@ -1,5 +1,15 @@
 # Hawkins for Schools verification
 
+## October 6, 2026 — evening copy revisions
+
+- Read both October Word attachments in full, including checking for tracked changes and additional text parts. The belief document contains three headings and three body paragraphs; the priorities document contains eight list entries. No tracked changes or additional text parts were present.
+- Replaced all three beliefs and all eight priorities with the supplied wording, including moving school assignments ahead of transportation. Preserved headings and punctuation; only repeated whitespace was normalized.
+- Compared every rendered belief heading/body and priority against independently extracted attachment text. All content and ordering match.
+- `npm run check` passed with zero errors, warnings, or hints, and `npm run build` succeeded.
+- Chromium checks at 320, 390, 768, and 1440 CSS pixels found no horizontal page or element overflow; 200% root text also reflowed without page overflow. Inspected revised sections in phone and desktop screenshots. Keyboard links still focus both sections correctly.
+- Existing interview embed and noindex metadata remain present. No design, custom-domain, or indexing changes were made. Kevin's request to review the updated page before final launch is recorded in `CLIENT-QUESTIONS.md`.
+- Limits: viewport emulation in desktop Chromium, not physical-device or assistive-technology testing. Unchanged video playback was not retested during this copy revision.
+
 ## October 6, 2026 — interview embed
 
 - Confirmed the supplied YouTube ID `0cZHzmhVvik`, title, and WSBT-TV publisher using YouTube's oEmbed response. Added the interview below the introduction, an Interview navigation link, and a direct Watch on YouTube link. The supplied beliefs and priorities are unchanged.

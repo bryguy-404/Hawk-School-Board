@@ -1,6 +1,6 @@
 # Hawkins for Schools
 
-A single-page, static campaign website built with Astro, TypeScript, and Tailwind CSS 4 through the official `@tailwindcss/vite` integration. Beliefs and priorities come from **2026_Sep_Hawkins for Schools webpage content.docx**, read in full before implementation. All three beliefs and all eight priorities retain their original wording and order. The lead sentence of each belief is styled as a heading without changing the text. Kevin's September 25, 2026 email supplies the candidate details, portrait, campaign artwork, and foundation-link request.
+A single-page, static campaign website built with Astro, TypeScript, and Tailwind CSS 4 through the official `@tailwindcss/vite` integration. The initial copy came from **2026_Sep_Hawkins for Schools webpage content.docx**. Kevin's October 6 revisions, **2026_Oct_HFS Website What I believe.docx** and **2026_Oct_HFS Website Priorities.docx**, now supply all three beliefs and eight priorities. Both revisions were read in full; wording, headings, and order are preserved, with repeated whitespace normalized. School assignments now precede transportation, as in the revised list. Kevin requested review of these changes on the site before final launch. His September 25, 2026 email supplies the candidate details, portrait, campaign artwork, and foundation-link request.
 
 The site has no first-party client-side application JavaScript, React, CMS, authentication, database, form, analytics, or external font requests. Fonts are self-hosted from Fontsource packages. It identifies Kevin Hawkins as a candidate for South Bend Community School Corporation School Board Member representing District 1, not as a current board member or official district spokesperson.
 
@@ -87,6 +87,6 @@ Official setup references: [Tailwind's Astro guide](https://tailwindcss.com/docs
 - `CLIENT-EMAIL.md`: short draft email for review; not sent.
 - `QA-NOTES.md`: checks performed and testing limitations.
 
-These Markdown files and the original source document are not in `public` or the built website output. Only `dist` is served or deployed.
+These Markdown files and the source Word documents are not in `public` or the built website output. Only `dist` is served or deployed.
 
 The preview is marked `noindex, nofollow` in HTML and Cloudflare response headers, with crawling disallowed in `robots.txt`. These controls discourage indexing; they are not access control. `hawkinsforschools.org` was proposed by the client but still needs ownership/access confirmation with Kyle. No production domain or canonical URL has been configured. Future use after the election is recorded in `CLIENT-QUESTIONS.md`, not activated on a timer.
