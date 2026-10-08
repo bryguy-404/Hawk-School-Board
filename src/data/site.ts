@@ -1,7 +1,7 @@
 /**
  * Beliefs use Kevin's October 7, 2026 revision; priorities use his October 6 version.
  * Wording, heading structure, and order preserved; repeated whitespace normalized.
- * Candidate details and logo approved in Kevin's September 25, 2026 email.
+ * Candidate details approved September 25; replacement logo supplied by Michala October 8.
  * His ballot-name spelling, domain ownership, and footer wording remain pending.
  */
 export const site = {

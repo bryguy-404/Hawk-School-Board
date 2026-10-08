@@ -1,5 +1,14 @@
 # Hawkins for Schools verification
 
+## October 8, 2026 — designer's replacement logo
+
+- Retrieved `Hawkins Logo.png` from Spark's downloaded attachment for the “Hawk Website” email shown by Bryan. Gmail search was rate-limited; the cached original attachment was available locally. Inspected the supplied 6001 × 1501 transparent PNG and confirmed its “Hawkins for Schools” wording.
+- Replaced the shared header/footer asset with the unmodified attachment. SHA-256 checksums of the source attachment and repository PNG match. Updated alt text to “Hawkins for Schools”; existing colors, content, and layout are unchanged.
+- `npm run check` passed with zero errors, warnings, or hints, and `npm run build` succeeded. Astro generated responsive WebP versions from the new source.
+- Chromium checks at 320, 390, 768, and 1440 CSS pixels confirmed both logos load from the new asset, retain their proportions, and have the correct alt text. No horizontal page-element overflow. Inspected desktop/mobile header and mobile footer screenshots; the footer logo link still returns to the top.
+- Preview noindex metadata is retained. No domain, indexing, or email changes were made.
+- Limits: desktop Chromium with emulated viewport sizes; no physical-device or assistive-technology testing for this asset swap.
+
 ## October 7, 2026 — final belief revision
 
 - Read `2026_Oct_What I Believe 2.docx` in full. It contains the same three belief headings with three replacement body paragraphs; no tracked changes or additional text parts were present.

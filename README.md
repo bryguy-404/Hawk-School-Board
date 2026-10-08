@@ -51,15 +51,15 @@ This invokes `wrangler deploy --dry-run` against the existing `dist` directory. 
 - `src/data/site.ts`: approved copy, headings, and metadata. Keep the supplied order and wording unless the client approves revisions.
 - `src/pages/index.astro`: semantic page structure and noindex metadata.
 - `src/styles/global.css`: shared color and font tokens in `@theme`, typography, responsive layout, focus states, reduced-motion and print styles.
-- `src/components/Wordmark.astro`: campaign logo extracted from the client's PDF and served as a responsive image.
+- `src/components/Wordmark.astro`: the current campaign logo served as a responsive image in the header and footer, with alt text matching its “Hawkins for Schools” wording.
 - `src/assets/kevin-hawkins.jpg`: original client-supplied Barbershop Selfie; Astro generates responsive WebP versions without retouching.
-- `src/assets/hawkins-campaign-logo.png`: original transparent logo embedded in the supplied yard-sign PDF, extracted without redrawing it.
+- `src/assets/hawkins-campaign-logo.png`: the unmodified 6001 × 1501 transparent `Hawkins Logo.png` supplied by Michala in the October 8 “Hawk Website” email, replacing the earlier yard-sign artwork. Retrieved from Spark's downloaded attachment; Astro generates responsive WebP versions.
 - `public/favicon.svg`: provisional typographic H favicon.
 - `public/_headers` and `public/robots.txt`: preview indexing controls.
 
 The palette follows the supplied campaign artwork's blue and red, with a light neutral background; Newsreader and Manrope retain the original draft's typography. Shared design tokens make later adjustments straightforward. Font licenses are retained in `public/fonts` and included in the build.
 
-The yard-sign PDF includes the campaign logo, District 1, and a sign slogan. The website uses the extracted logo and confirmed district. It does not present the full print layout as a web logo or add the sign slogan to the original belief statements. The email's ballot spelling is inconsistent, so only “Kevin Hawkins” is shown pending clarification. No private email address or phone number from the correspondence is included.
+The initial yard-sign PDF supplied the earlier campaign logo, District 1, and a sign slogan. The current website uses Michala's October 8 replacement PNG and the confirmed district. It does not present the full print layout as a web logo or add the sign slogan to the belief statements. The email's ballot spelling is inconsistent, so only “Kevin Hawkins” is shown pending clarification. No private email address or phone number from the correspondence is included.
 
 ## Cloudflare Workers Static Assets deployment
 
